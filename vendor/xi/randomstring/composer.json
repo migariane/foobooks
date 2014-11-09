@@ -1,0 +1,29 @@
+{
+    "name": "xi/randomstring",
+    "type": "library",
+    "description": "Random string generator",
+    "keywords": ["tool"],
+    "homepage": "http://github.com/xi-project/xi-randomstring",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Mikko Forsström",
+            "email": "pekkisx@gmail.com",
+            "homepage": "http://diktaattoriporssi.com",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "Xi\\RandomString": "library/",
+            "Xi\\RandomString\\Tests" : "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+
+}
